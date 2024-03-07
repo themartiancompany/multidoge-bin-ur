@@ -17,11 +17,11 @@ arch=(
   'x86_64'
   'arm'
 )
-url="http://${pkg}.org"
+url="http://${_pkg}.org"
 license=(
   'GPL'
 )
-install=${pkg}.install
+install=${_pkg}.install
 depends=(
   'bash'
   'java-runtime'

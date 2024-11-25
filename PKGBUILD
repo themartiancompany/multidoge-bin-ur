@@ -10,7 +10,7 @@
 # Contributor: Truocolo (truocolo@aol.com) 
 
 _pkg="multidoge"
-pkgname="${_pkg}"
+pkgname="${_pkg}-bin"
 pkgver=0.1.7
 pkgrel=1
 pkgdesc="Java-based DogeCoin client"
@@ -28,6 +28,12 @@ depends=(
   'bash'
   'java-runtime'
   'jre8-openjdk'
+)
+provides=(
+  "${_pkg}=${pkgver}"
+)
+conflicts=(
+  "${_pkg}"
 )
 _gh="github.com"
 _ns="langerhans"

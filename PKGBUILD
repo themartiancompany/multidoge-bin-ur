@@ -30,7 +30,7 @@ depends=(
   'jre8-openjdk'
 )
 _gh="github.com"
-_ns="langershans"
+_ns="langerhans"
 _url="https://${_gh}/${_ns}/${_pkg}"
 source=(
   "${_url}/releases/download/v${pkgver}/${_pkg}-${pkgver}-linux.jar"

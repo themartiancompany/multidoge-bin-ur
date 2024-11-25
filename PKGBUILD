@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0
 #
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Original maintainer Alex Talker < Alextalker at openmailbox dot com >
 # Support Maintainer Filip Brcic < brcha at gna dot org >
 # Contributor bitwave < aur [at] oomlu [d0t] de >
@@ -80,5 +82,3 @@ package() {
   msg \
     "Done!"
 }
-
-# vim:set sw=2 sts=-1 et:
